@@ -11,5 +11,5 @@ client.on('error', function (err) {
 client.set('color', 'red', redis.print);
 client.get('color', function(err, value) {
     if (err) throw err;
-    console.log('Got: ' + value);
+    console.log('Got:  ' + value);
 });
